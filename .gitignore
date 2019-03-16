@@ -3,3 +3,5 @@ models-external
 *.csv
 .ipynb_checkpoints
 embeddings-ft1.csv.tar.gz
+.ipython/
+.local/

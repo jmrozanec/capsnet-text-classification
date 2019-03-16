@@ -15,3 +15,7 @@ Results we obtained:
 |------|-------|-------|-------|
 |Accuracy|0.8901|0.8179|0.8897|
 |Time trained|920 minutes|23 minutes|189 minutes|
+
+To start a Docker image, run: 
+- docker run -p 8888:8888 -v "$PWD":/home/jovyan jupyter/datascience-notebook
+- docker exec b7f3abbf54da pip install keras
